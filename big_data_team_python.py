@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -15,9 +9,6 @@ plt.rc('axes', unicode_minus=False)
 
 import streamlit as st
 from datetime import date
-
-
-# In[2]:
 
 
 df = pd.read_csv('/Users/bango/Desktop/지난 학기/2022 2학년 1학기/수업/빅데이터 처리와 시각화/분프 팀플/clensing data.csv',encoding = 'utf-8-sig')
